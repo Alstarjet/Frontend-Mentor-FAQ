@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-direction:row;
+    width: 1000px;
+    min-height: 500px;
+    max-height: 800px;
+    background-color: white;
+    border-radius: 1.3rem;
+    overflow: visible;
+    padding-right: 2rem;
+}
+.vector{
+    width: 500px;
+}
+#fotodos{
+    width: 472px;
+    position: absolute;
+    top:-150px;
+    left: -80px;
+}
+#foto{
+    width: 472px;
+    height: 379px;
+    position: absolute;
+    left: -80px;
+}
+.Preguntas{
+    width: 440px;
+    align-items: flex-start;
+}
+#cajafoto{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index:2;
+    left: -250px;    
+}
